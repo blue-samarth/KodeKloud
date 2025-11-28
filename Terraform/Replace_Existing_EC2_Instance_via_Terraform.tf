@@ -1,0 +1,1 @@
+terraform apply -replace="aws_instance.web_server" --auto-approve
