@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "my_bucket" {
   acl    = "private"
 
   tags = {
-    Name        = "nautilus-cp-9061"
+    Name = "nautilus-cp-9061"
   }
 }
 

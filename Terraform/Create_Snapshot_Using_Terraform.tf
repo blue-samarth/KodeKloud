@@ -4,12 +4,12 @@ resource "aws_ebs_volume" "k8s_volume" {
   type              = "gp2"
 
   tags = {
-    Name        = "datacenter-vol"
+    Name = "datacenter-vol"
   }
 }
 
 resource "aws_ebs_snapshot" "datacenter_snapshot" {
-  volume_id = aws_ebs_volume.k8s_volume.id
+  volume_id   = aws_ebs_volume.k8s_volume.id
   description = "Datacenter Snapshot"
   tags = {
     Name = "datacenter-vol-ss"

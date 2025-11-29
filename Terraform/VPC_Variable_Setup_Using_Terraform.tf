@@ -7,9 +7,9 @@ variable "KKE_vpc" {
 
 
 resource "aws_vpc" "nautilus_vpc" {
-    cidr_block = "10.0.0.0/16"
-    
-    tags = {
-        Name        = var.KKE_vpc
-    }
+  cidr_block = "10.0.0.0/16"
+
+  tags = {
+    Name = var.KKE_vpc
+  }
 }

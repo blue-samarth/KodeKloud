@@ -1,6 +1,6 @@
 resource "aws_eip" "devops_eip" {
-  domain = "vpc" 
-  
+  domain = "vpc"
+
   tags = {
     Name        = "devops-eip"
     Environment = "migration"

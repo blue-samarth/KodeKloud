@@ -4,8 +4,8 @@ resource "aws_vpc" "nautilus-vpc" {
   enable_dns_hostnames             = true
   enable_dns_support               = true
   tags = {
-    Name        = "nautilus-vpc"
-    Project     = "nautilus-devops"
-    managed_by  = "Terraform"
-    }
+    Name       = "nautilus-vpc"
+    Project    = "nautilus-devops"
+    managed_by = "Terraform"
+  }
 }

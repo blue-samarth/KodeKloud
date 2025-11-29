@@ -7,5 +7,5 @@ resource "aws_dynamodb_table" "dynamodb_table_xfusion_users" {
     name = "xfusion_id"
     type = "S"
   }
-  
+
 }

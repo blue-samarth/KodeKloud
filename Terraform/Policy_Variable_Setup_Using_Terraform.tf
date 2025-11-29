@@ -1,7 +1,7 @@
 variable "KKE_iampolicy" {
-    description = "The name of the IAM Policy"
-    type        = string
-    default     = "iampolicy_siva"
+  description = "The name of the IAM Policy"
+  type        = string
+  default     = "iampolicy_siva"
 }
 
 resource "aws_iam_policy" "policy" {

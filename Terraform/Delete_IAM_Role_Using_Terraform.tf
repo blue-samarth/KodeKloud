@@ -5,7 +5,7 @@ resource "aws_iam_role" "role" {
     Version = "2012-10-17",
     Statement = [
       {
-        Effect    = "Allow"
+        Effect = "Allow"
         Principal = {
           Service = "ec2.amazonaws.com"
         }
@@ -15,7 +15,7 @@ resource "aws_iam_role" "role" {
   })
 
   tags = {
-    Name        = "iamrole_kirsty"
+    Name = "iamrole_kirsty"
   }
 }
 
